@@ -4,8 +4,8 @@ def power(base, exp):
         return 1
     elif exp < 0:
         a = 1/base * power(base, exp+1)
-        # print(a) 1/4*
+        # print(a) 1/4*.25
         return a
     return base * power(base, exp-1)
     
-print(power(4,-1))    
+print(power(4,-2))    
